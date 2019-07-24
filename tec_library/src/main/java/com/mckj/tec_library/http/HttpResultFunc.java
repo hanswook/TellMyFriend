@@ -25,7 +25,7 @@ public class HttpResultFunc<D> implements Function<HttpJSONResult<D>, D> {
 
     @Override
     public D apply(HttpJSONResult<D> result) throws Exception {
-        processState(String.valueOf(result.getInfo()), EmptyUtils.checkStringNull(result.getMsg()));
+//        processState(String.valueOf(result.getInfo()), EmptyUtils.checkStringNull(result.getMsg()));
         return getData(EmptyUtils.isEmpty(result.getObj()) ? null : result.getObj());
     }
 

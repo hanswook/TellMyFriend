@@ -6,10 +6,10 @@ package com.mckj.tec_library.http;
  * @des ${TODO}
  */
 public class UrlConstant {
-    public static final String DOMAIN_URL = "http://ceshi.yangguanghaina.com/";
-    public static final String BASE_URL = DOMAIN_URL + "user/";
+//    public static final String DOMAIN_URL = "http://ceshi.yangguanghaina.com/";
+    public static final String BASE_URL = "http://106.12.72.67:8502/";
 
     //加载H5页面基类地址
-    public static final String BASE_HTML_URL = DOMAIN_URL + "lifeplus_active/#/";
+//    public static final String BASE_HTML_URL = DOMAIN_URL + "lifeplus_active/#/";
 
 }

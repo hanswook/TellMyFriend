@@ -9,16 +9,16 @@ public class HttpJSONResult<T> {
      * obj : {"id":1,"userId":1,"all_Integral":200,"effective_Integral":200,"createTime":"2018-08-23 10:11:09.0","updateTime":"2018-08-23 10:11:13.0"}
      */
 
-    private int info;
+    private int code;
     private String msg;
     private T obj;
 
     public int getInfo() {
-        return info;
+        return code;
     }
 
     public void setInfo(int info) {
-        this.info = info;
+        this.code = info;
     }
 
     public String getMsg() {
